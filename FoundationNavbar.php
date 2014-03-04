@@ -1,17 +1,18 @@
 <?php
-/**
- * User: Pascal Brewing
- * Date: 21.12.13
- * Time: 13:52
- * @package ${DIR}.FoundationNavbar
- * Class FoundationNavbar
- */
+namespace drmabuse\foundationTopbar;
 
-namespace foundationTopbar;
-
+use drmabuse\foundationTopbar\assets\FoundationNavbarAsset;
 use yii\base\Widget;
 use yii\helpers\Html;
 use yii\helpers\Json;
+
+/**
+ * 11 Oct 2013
+ * @author Pascal Brewing <pascalbrewing@gmail.com>
+ * @url http://foundation.zurb.com/docs/components/topbar.html
+ * Class FoundationNavbar
+ * @package drmabuse\foundationTopbar
+ */
 
 class FoundationNavbar extends Widget{
 
@@ -45,7 +46,7 @@ class FoundationNavbar extends Widget{
 
     public function init(){
         parent::init();
-        Yii::setAlias('@foundation-topbar', dirname(__FILE__));
+        \Yii::setAlias('@foundationTopbar', dirname(__FILE__));
         $this->registerAsset();
         if( !is_null($this->contain) )
             echo Html::beginTag('div',$this->contain);
@@ -87,6 +88,6 @@ class FoundationNavbar extends Widget{
 
     private function registerAsset(){
         $view = $this->getView();
-        SirTrevorCompleteAsset::register($view);
+        FoundationNavbarAsset::register($view);
     }
 } 

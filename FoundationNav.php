@@ -1,13 +1,6 @@
 <?php
-/**
- * User: Pascal Brewing
- * Date: 21.12.13
- * Time: 17:01
- * @package ${DIR}.FoundationNav
- * Class FoundationNav
- */
 
-namespace foundationTopbar;
+namespace drmabuse\foundationTopbar;
 
 use Yii;
 use common\helpers\FoundationNavDropDown;
@@ -15,6 +8,13 @@ use yii\helpers\Html;
 use yii\helpers\ArrayHelper;
 use yii\widgets\Menu;
 use yii\helpers\VarDumper;
+
+/**
+ * 11 Oct 2013
+ * @author Pascal Brewing <pascalbrewing@gmail.com>
+ * Class FoundationNav
+ * @package drmabuse\foundationTopbar
+ */
 
 class FoundationNav extends Menu {
     /**

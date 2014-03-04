@@ -1,13 +1,5 @@
 <?php
-/**
- * User: Pascal Brewing
- * Date: 21.12.13
- * Time: 18:13
- * Class FoundationNavDropDown
- * @package common\helpers
- */
-
-namespace foundationTopbar;
+namespace drmabuse\foundationTopbar;
 
 use Yii;
 use yii\base\InvalidConfigException;
@@ -15,6 +7,12 @@ use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\base\Widget;
 
+/**
+ * 11 Oct 2013
+ * @author Pascal Brewing <pascalbrewing@gmail.com>
+ * Class FoundationNavDropDown
+ * @package drmabuse\foundationTopbar
+ */
 class FoundationNavDropDown extends Widget {
     /**
      * @var array list of menu items in the dropdown. Each array element can be either an HTML string,

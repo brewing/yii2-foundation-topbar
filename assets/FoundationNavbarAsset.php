@@ -1,26 +1,20 @@
 <?php
-/**
- * @link http://www.yiiframework.com/
- * @copyright Copyright (c) 2008 Yii Software LLC
- * @license http://www.yiiframework.com/license/
- */
-
-namespace foundationTopbar\assets;
+namespace drmabuse\foundationTopbar\assets;
 
 use yii\web\AssetBundle;
 
 /**
- * @author Qiang Xue <qiang.xue@gmail.com>
- * @since 2.0
+ * 11 Oct 2013
+ * @author Pascal Brewing <pascalbrewing@gmail.com>
+ * Class FoundationNavbarAsset
+ * @package drmabuse\foundationTopbar\assets
  */
+
 class FoundationNavbarAsset extends AssetBundle
 {
 
-    public $basePath    = '@foundationTopbar/navbar/dist/';
-    public $baseUrl     = '@foundationTopbar';
-
+    public $sourcePath  = '@foundationTopbar/navbar/dist/';
     public $path        = '';
-
     public $css         = [
         'css/navbar.css'
     ];
