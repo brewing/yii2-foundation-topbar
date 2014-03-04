@@ -7,7 +7,7 @@
  * Class FoundationNav
  */
 
-namespace foundationTopbar;
+namespace drmabuse\foundationTopbar;
 
 use Yii;
 use common\helpers\FoundationNavDropDown;

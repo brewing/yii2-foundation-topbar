@@ -1,6 +1,6 @@
 {
     "name":         "drmabuse/yii2-foundation-topbar",
-    "description":  "Zurb Foundation Topbar widget for yii 2",
+    "description":  "Yii 2 Zurb Foundation Topbar widgets",
     "keywords":     ["yii-2","menu" ],
     "homepage":     "http://pascal-brewing.de",
     "license":      "BSD-3-Clause",
@@ -10,7 +10,6 @@
         "php":          ">=5.4.0",
         "yiisoft/yii2": "dev-master"
     },
-    "minimum-stability": "dev",
     "authors": [
         {
             "name":     "Pascal Brewing",
@@ -24,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "drmabuse/foundationTopbar\\": ""
+            "drmabuse\\foundationTopbar\\": ""
         }
     }
 }

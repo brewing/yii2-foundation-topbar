@@ -7,7 +7,7 @@
  * Class FoundationNavbar
  */
 
-namespace foundationTopbar;
+namespace drmabuse\foundationTopbar;
 
 use yii\base\Widget;
 use yii\helpers\Html;

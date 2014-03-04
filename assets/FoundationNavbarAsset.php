@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace foundationTopbar\assets;
+namespace drmabuse\foundationTopbar\assets;
 
 use yii\web\AssetBundle;
 

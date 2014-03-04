@@ -7,7 +7,7 @@
  * @package common\helpers
  */
 
-namespace foundationTopbar;
+namespace drmabuse\foundationTopbar;
 
 use Yii;
 use yii\base\InvalidConfigException;
