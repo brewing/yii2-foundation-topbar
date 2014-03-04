@@ -1,4 +1,4 @@
-yii2_foundation_topbar
+yii2-foundation-topbar
 ======================
 
 deeper Menu widget for yii2

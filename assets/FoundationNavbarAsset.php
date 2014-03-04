@@ -16,7 +16,7 @@ use yii\web\AssetBundle;
 class FoundationNavbarAsset extends AssetBundle
 {
 
-    public $basePath    = '@foundationTopbar/dist/';
+    public $basePath    = '@foundationTopbar/navbar/dist/';
     public $baseUrl     = '@foundationTopbar';
 
     public $path        = '';
@@ -33,8 +33,6 @@ class FoundationNavbarAsset extends AssetBundle
     ];
 
     public $depends     = [
-        'frontend\assets\AppAsset',
         'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapAsset',
     ];
 }
