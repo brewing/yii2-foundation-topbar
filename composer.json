@@ -1,0 +1,30 @@
+{
+    "name":         "drmabuse/yii2-foundation-topbar",
+    "description":  "Yii 2 Zurb Foundation Topbar widgets",
+    "keywords":     ["yii-2","menu" ],
+    "homepage":     "http://pascal-brewing.de",
+    "license":      "BSD-3-Clause",
+    "version":      "1.0.0",
+    "type":         "yii2-widget",
+    "require": {
+        "php":          ">=5.4.0",
+        "yiisoft/yii2": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name":     "Pascal Brewing",
+            "email":    "pascalbrewing@gmail.com",
+            "homepage": "http://pascal-brewing.de/",
+            "role":     "Founder and development"
+        }
+    ],
+    "support": {
+        "source":       "https://github.com/brewing/yii2-foundation-topbar"
+    },
+    "autoload": {
+        "psr-4": {
+            "drmabuse/foundationTopbar\\": ""
+        }
+    }
+}
