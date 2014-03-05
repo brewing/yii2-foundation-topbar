@@ -13,7 +13,7 @@ use yii\web\AssetBundle;
 class FoundationNavbarAsset extends AssetBundle
 {
 
-    public $sourcePath  = '@foundationTopbar/navbar/dist/';
+    public $sourcePath  = '@foundationTopbar/dist/';
     public $path        = '';
     public $css         = [
         'css/navbar.css'
