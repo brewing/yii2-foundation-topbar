@@ -3,7 +3,6 @@
 namespace drmabuse\foundationTopbar;
 
 use Yii;
-use common\helpers\FoundationNavDropDown;
 use yii\helpers\Html;
 use yii\helpers\ArrayHelper;
 use yii\widgets\Menu;
