@@ -24,7 +24,7 @@ class FoundationNavbar extends Widget{
      * @var array
      */
     public $title = [
-        'name' => 'My Site',
+        'name' => '',
         'nameUrl' => '/',
         'nameOptions' => [],
         'listNameOptions' => []
@@ -51,10 +51,10 @@ class FoundationNavbar extends Widget{
         if( !is_null($this->contain) )
             echo Html::beginTag('div',$this->contain);
 
-        Html::addCssClass($this->title['nameOptions'],'top-bar');
-        Html::addCssClass($this->title['listNameOptions'],'name');
-        Html::addCssClass($this->options['sectionOptions'],'top-bar-section');
-        Html::addCssClass($this->options['navOptions'],'top-bar');
+        Html::addCssClass($this->title['nameOptions'],      'top-bar');
+        Html::addCssClass($this->title['listNameOptions'],  'name');
+        Html::addCssClass($this->options['sectionOptions'], 'top-bar-section');
+        Html::addCssClass($this->options['navOptions'],     'top-bar');
 
         if(!isset($this->options['navOptions']['data-topbar']))
             $this->options['navOptions']['data-topbar'] = '';
