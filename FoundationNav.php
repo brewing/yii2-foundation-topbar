@@ -121,7 +121,7 @@ class FoundationNav extends Menu {
         $label          = $this->encodeLabels ? Html::encode($item['label']) : $item['label'];
         $options        = ArrayHelper::getValue($item, 'options', []);
         $items          = ArrayHelper::getValue($item, 'items');
-        $url            = Html::url(ArrayHelper::getValue($item, 'url', '#'));
+        $url            = ArrayHelper::getValue($item, 'url', '#');
         $linkOptions    = ArrayHelper::getValue($item, 'linkOptions', []);
 
         if (isset($item['active'])) {
