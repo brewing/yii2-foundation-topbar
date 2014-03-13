@@ -73,7 +73,7 @@ module.exports = function (grunt) {
         css :               '../dist/css',
         assetsFont :        'fonts',
         assetsImg :         'img',
-        dist :              'dist',
+        dist :              '../dist',
         foundation :        "bower_components/foundation",
         bowerComponents :   'bower_components',
         jsFiles:[
