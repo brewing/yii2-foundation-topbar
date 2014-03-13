@@ -73,6 +73,23 @@ yii2 php 5.4 >internet Explorer 8
     FoundationNavbar::end();?>
 ~~~
 
+Maybe you wanna overwrite or depends the Files
+
+~~~
+
+    'assetManager' => [
+        'bundles' => [
+            'drmabuse\foundationTopbar\assets\FoundationTopbarAssets' => [
+                'depends' => [
+                    'yii\web\YiiAsset',
+                    'backend\assets\AppAsset'
+                ],
+            ]
+        ],
+    ],
+
+~~~
+
 
 ##Resources
 
